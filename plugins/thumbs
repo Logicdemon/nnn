@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+
+# Description:	Generate clickable image thumbnails from current directory. Dead simple single command line.
+# Dependencies:	feh: https://feh.finalrewind.org
+# Author: Lee Myerscough
+
+feh -t -E 128 -y 128 -W 1920 --index-info ""
